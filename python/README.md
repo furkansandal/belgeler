@@ -13,6 +13,9 @@ yazılmış, [Sphinx](http://www.sphinx-doc.org/en/stable/) belgelendirme oluşt
 getirilmekteydi. Buradaki süreçte belgeler, işaretleme dili olarak [AsciiDoc](http://www.methods.co.nz/asciidoc/),
 belgelendirme oluşturucusu olarak da [Asciidoctor](http://asciidoctor.org/) kullanılarak yeniden yazılacaktır.
 
+Belgelerin kaynak kodlarının ilk hallerine her zaman
+[şu](https://github.com/yazbel/belgeler/tree/orijinal-python-belgeleri) adresten ulaşabilirsiniz.
+
 ## Belgeler neden buraya kopyalandı?
 
 Bu belgeler buraya kopyalanmadan bir süre önce Fırat Özgül, istihza.com projesinin sonlanacağını istihza.com forumunda
