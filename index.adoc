@@ -1,0 +1,13 @@
+= YazBel Belgeleri
+İsmail Arılık <arilik.ismail@gmail.com>
+0.1, 11 Mayıs, 2017, YazBel Yazılım Belgelendirme Projesi Belgeleri
+:version-label: Sürüm
+:last-update-label: Son güncelleme
+:icons: font
+:toc: left
+:toc-title: İçindekiler
+
+YazBel projesi belgelerine hoşgeldiniz! Burada çeşitli programlama dilleri, kütüphaneler ve teknolojiler hakkında
+belgeler bulabilirsiniz.
+
+NOTE: istihza.com Python 3 belgelerine link:python-istihza/[şu adresten] ulaşabilirsiniz.
