@@ -7,7 +7,33 @@
 :toc: left
 :toc-title: İçindekiler
 
-YazBel projesi belgelerine hoşgeldiniz! Burada çeşitli programlama dilleri, kütüphaneler ve teknolojiler hakkında
-belgeler bulabilirsiniz.
+YazBel projesi belgelerine hoşgeldiniz!
+Burada çeşitli programlama dilleri, kütüphaneler ve teknolojiler hakkında belgeler bulabilirsiniz.
 
 NOTE: istihza.com Python 3 belgelerine link:python-istihza/[şu adresten] ulaşabilirsiniz.
+
+== Belgeler hakkında
+
+Bu belgelerin kaynak kodu https://github.com/yazbel/belgeler[GitHub'ta tutulmaktadır].
+
+=== Nasıl yardım alabilirim?
+
+Her zaman https://forum.yazbel.com/[YazBel forumu]nda bir konu açarak aklınızdaki soruları sorabilirsiniz.
+Topluluk size yardım etmekten mutluluk duyacaktır.
+
+=== Nasıl yardım edebilirim?
+
+Birçok şekilde yardım edebilirsiniz:
+
+- Belgelerde değişiklik yaparak çekme isteği(pull request) gönderebilirsiniz.
+Yazım yanlışları ve küçük hatalar için GitHub arayüzünü kullanabilirsiniz ancak daha büyük ve karmaşık düzeltmeler için veri havuzunu bilgisayarınıza çekmeli, daha sonrasında düzeltmeleri yapıp çekme isteği göndermelisiniz.
+Her iki durumda da kısa ve öz bir işleme mesajı(commit message) yazdığınıza emin olmalısınız.
+
+- Eğer bir yanlış gördünüz ancak bir sebepten ötürü düzeltmeyi kendiniz yapmak istemediyseniz, bu hatayı bildirerek de yardım edebilirsiniz.
+Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(issues)] dizininde bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin.
+Başlık kısmının kısa ve öz olmasına dikkat edin.
+
+=== Lisans
+
+https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
+Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
