@@ -48,7 +48,7 @@ Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
 
 Android belgelerini link:android/[şurada] bulabilirsiniz.
 
-== Python belgeleri
+== Python Belgeleri
 
 Python, Django, PyQt, Pygame, Beautiful Soup ve diğer Python teknolojilerine ait belgeleri link:python/[şurada] bulabilirsiniz.
 
