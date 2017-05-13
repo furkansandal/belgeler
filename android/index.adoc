@@ -1,6 +1,6 @@
 = Android Belgeleri
 İsmail Arılık <arilik.ismail@gmail.com>
-0.1, 12 Mayıs, 2017, YazBel Android Belgeleri
+0.1, 13 Mayıs, 2017, YazBel Android Belgeleri
 :version-label: Sürüm
 :last-update-label: Son güncelleme
 :icons: font
