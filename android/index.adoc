@@ -1,0 +1,109 @@
+= Android Belgeleri
+İsmail Arılık <arilik.ismail@gmail.com>
+0.1, 12 Mayıs, 2017, YazBel Android Belgeleri
+:version-label: Sürüm
+:last-update-label: Son güncelleme
+:icons: font
+:source-highlighter: pygments
+:toc: left
+:toc-title: İçindekiler
+
+// Font simgelerinin çalışması için eklenmiştir.
+++++
+<script src="https://use.fontawesome.com/c38eb8c034.js"></script>
+++++
+
+Android belgelerine hoşgeldiniz!
+Burada Android ile ilgili belgeler bulabilirsiniz.
+
+== Belgeler Hakkında
+
+Bu belgelerin kaynak kodu https://github.com/yazbel/belgeler[GitHub'ta tutulmaktadır].
+
+=== Nasıl yardım alabilirim?
+
+Her zaman https://forum.yazbel.com/[YazBel forumu]nun https://forum.yazbel.com/c/android[Android kategorisi]nde bir konu açarak aklınızdaki soruları sorabilirsiniz.
+Topluluk size yardım etmekten mutluluk duyacaktır.
+
+=== Nasıl yardım edebilirim?
+
+Birçok şekilde yardım edebilirsiniz:
+
+- Belgelerde değişiklik yaparak çekme isteği(pull request) gönderebilirsiniz.
+Yazım yanlışları ve küçük hatalar için GitHub arayüzünü kullanabilirsiniz ancak daha büyük ve karmaşık düzeltmeler için veri havuzunu bilgisayarınıza çekmeli, daha sonrasında düzeltmeleri yapıp çekme isteği göndermelisiniz.
+Her iki durumda da kısa ve öz bir işleme mesajı(commit message) yazdığınıza emin olmalısınız.
+
+- Eğer bir yanlış gördünüz ancak bir sebepten ötürü düzeltmeyi kendiniz yapmak istemediyseniz, bu hatayı bildirerek de yardım edebilirsiniz.
+Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(issues)] dizininde bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin.
+Başlık kısmının kısa ve öz olmasına dikkat edin.
+Ayrıca konuya, sağ taraftaki **Labels** bölümünden `android` etiketini eklediğinize de emin olun.
+
+=== Lisans
+
+https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
+Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
+
+== Android Hakkında
+
+https://www.android.com/[Android], Google'ın önderliğinde geliştirilen bir mobil işletim sistemidir.
+Android şu anda yaygın olarak birçok akıllı telefon ve tablete güç vermektedir.
+Ayrıca televizyon, gözlük, saat ve araç içi donanımlarında da Android işletim sistemini görmek mümkündür.
+Android http://www.apache.org/licenses/LICENSE-2.0[Apache lisansı 2.0] altında dağıtılan özgür bir yazılımdır.
+
+Android gözde ve özgür bir platformdur, ayrıca oldukça gelişmiş yazılım geliştirme araçlarına sahiptir.
+Bu Android uygulama geliştiricilerine büyük kolaylık sağlamaktadır.
+https://play.google.com/store?hl=tr[Google Play mağazası], 2013 yılı itibariyle bir milyondan fazla uygulama ve 50 milyardan fazla indirmeye sahip Android için en gözde mağazadır.footnote:[http://www.phonearena.com/news/Androids-Google-Play-beats-App-Store-with-over-1-million-apps-now-officially-largest_id45680]
+Android için geliştirilen bir uygulama bu mağazaya konarak kolaylıkla milyonlarca insana ulaştırılabilir.
+Ayrıca Google'ın sunduğu alt yapı sayesinde Android uygulamalarından çeşitli yollarla para kazanmak da oldukça kolaydır.
+
+İştahınız kabarmış olmalı!
+Ancak hepsi bu kadar değil.
+Android'le uygulama geliştirmek için sizi bunlardan daha çok motive edecek bir şey var: *Eğlence*.
+Evet, Android ile uygulama geliştirmek eğlencelidir.
+Android ile ilk uygulamanızı geliştirdiğinizde ve telefonunuzda açtığınızda ne demek istediğimi anlayacaksınız. =)
+
+== Kurulum
+
+Android Studio sistemden sisteme farklı kurulum adımları gerektirmektedir.
+Ancak indirmek için yapılacak şey her sistemde aynıdır: https://developer.android.com/studio/index.html[Şuradan] "DOWNLOAD ANDROİD STUDİO" tuşuna tıklayın ve indirmeyi bekleyin.
+
+=== Windows'ta Kurulum
+
+- İndirilen `.exe` dosyasına çift tıklayın.
+- Adımları takip ederek Android Studio'yu kurun.
+- Android Studio başlatarak adımları takip edin ve kurulumu tamamlayın.
+
+=== Mac'te Kurulum
+
+- İndirilen `.dmg` dosyasına çift tıklayın.
+- _Android Studio_'yu _Uygulamalar_ dizine sürükleyip bırakın.
+- Android Studio başlatarak adımları takip edin ve kurulumu tamamlayın.
+
+=== Linux'te Kurulum
+
+- İndirilen `.zip` dosyasını ev dizininize(`home`) çıkartın.
+- Bir uçbirim(terminal, konsol) açıp `android-studio/bin/` dizinine gidin ve `studio.sh` dosyasını çalıştırın.
+- Android Studio başlatarak adımları takip edin ve kurulumu tamamlayın.
+
+TIP: Sisteminizin Uygulamalar bölümünde Android Studio'nun yer alması için Android Studio'da *Tools > Create Desktop Entry* seçeneğini seçin.
+
+[WARNING]
+====
+Eğer 64-bit Ubuntu kullanıyorsanız bazı 32-bit kütüphaneleri aşağıdaki komut ile kurmalısınız:
+
+[source,bash]
+----
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+----
+
+Eğer 64-bit Fedora kullanıyorsanız şu komutu vermelisiniz:
+
+[source,bash]
+----
+sudo yum install zlib.i686 ncurses-libs.i686 bzip2-libs.i686
+----
+====
+
+== Kılavuz
+
+Kısa ve öz olarak yazılmış link:kilavuz/[bu kılavuz] ile adım adım ilerleyerek Android uygulaması geliştirmeyi öğrenin!
