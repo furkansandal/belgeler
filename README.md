@@ -2,10 +2,10 @@
 
 [https://belgeler.yazbel.com](https://belgeler.yazbel.com)
 
-Bu veri havuzu çeşitli programlama dilleri, çatılar(frameworks), kütüphaneler, teknolojiler ve araçlar hakkında Türkçe
-belgeler içermektedir.
+YazBel projesi belgelerine hoşgeldiniz! Bu veri havuzu çeşitli programlama dilleri, çatılar(frameworks), kütüphaneler,
+teknolojiler ve araçlar hakkında Türkçe belgeler içermektedir.
 
-## Belgeler hakkında
+## Belgeler Hakkında
 
 Belgeler, belgenin anlattığı programlama dili, kütüphane ya da teknoloji ile isimlendirilmiş dizinlerde ayrı olarak
 tutulmaktadır. Belgeler yazılırken işaretleme dili olarak [AsciiDoc](http://www.methods.co.nz/asciidoc/), belgelendirme
