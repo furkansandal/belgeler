@@ -1,0 +1,137 @@
+= Python Belgeleri
+İsmail Arılık <arilik.ismail@gmail.com>
+0.1, 13 Mayıs, 2017, YazBel Python Belgeleri
+:version-label: Sürüm
+:last-update-label: Son güncelleme
+:icons: font
+:source-highlighter: pygments
+:source-language: python
+:toc: left
+:toc-title: İçindekiler
+
+// Font simgelerinin çalışması için eklenmiştir.
+++++
+<script src="https://use.fontawesome.com/c38eb8c034.js"></script>
+++++
+
+Python belgelerine hoşgeldiniz!
+
+== Belgeler Hakkında
+
+Bu belgelerin kaynak kodu https://github.com/yazbel/belgeler[GitHub'ta tutulmaktadır].
+
+=== Nasıl yardım alabilirim?
+
+Her zaman https://forum.yazbel.com/[YazBel forumu]nun https://forum.yazbel.com/c/python[Python kategorisi]nde bir konu açarak aklınızdaki soruları sorabilirsiniz.
+Topluluk size yardım etmekten mutluluk duyacaktır.
+
+=== Nasıl yardım edebilirim?
+
+Birçok şekilde yardım edebilirsiniz:
+
+- Belgelerde değişiklik yaparak çekme isteği(pull request) gönderebilirsiniz.
+Yazım yanlışları ve küçük hatalar için GitHub arayüzünü kullanabilirsiniz ancak daha büyük ve karmaşık düzeltmeler için veri havuzunu bilgisayarınıza çekmeli, daha sonrasında düzeltmeleri yapıp çekme isteği göndermelisiniz.
+Her iki durumda da kısa ve öz bir işleme mesajı(commit message) yazdığınıza emin olmalısınız.
+
+- Eğer bir yanlış gördünüz ancak bir sebepten ötürü düzeltmeyi kendiniz yapmak istemediyseniz, bu hatayı bildirerek de yardım edebilirsiniz.
+Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(issues)] dizininde bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin.
+Başlık kısmının kısa ve öz olmasına dikkat edin.
+Ayrıca konuya, sağ taraftaki **Labels** bölümünden `python` etiketini eklediğinize de emin olun.
+
+=== Lisans
+
+https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
+Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
+
+== Python Hakkında
+
+Python programlama dili Hollandalı programcı Guido Van Rossum tarafından 1991 yılında tasarlanıp gerçeklenmeye başlanmış bir programlama dilidir.
+Python en başta kolay okunup yazılabilirliği ile dikkat çekmektedir.
+Python zamanımızın gözde programlama paradigmalarından olan nesneye yönelik programlama paradigmasını desteklemektedir.
+Python programlama dili genel amaçlı bir programlama dilidir ve masaüstü programlamadan web sunucu programlamaya, sistem programlamadan oyun programlamaya kadar birçok alanda kullanılmaktadır.
+
+Python oldukça gözde bir betik geliştirme dilidir, özellikle GNU/Linux dünyasında.
+Python Google'ın resmi olarak kullandığı ve desteklediği üç dilden biri, ayrıca tek betikleme dilidir.
+Python yurt içi ve dışı birçok üniversite müfredatında da özellikle programlamaya giriş ve bilimsel programlama derslerinde yerini almıştır.
+Python programlama dili, https://en.wikipedia.org/wiki/Python_Software_Foundation_License[*Python Yazılım Vakfı Lisansı*] altında dağıtılan özgür bir yazılımdır.
+
+İştahınız kabarmış olmalı!
+Ancak hepsi bu kadar değil.
+Python ile uygulama geliştirmek için sizi bunlardan daha çok motive edecek bir şey var: *Eğlence*.
+Evet, Python ile uygulama geliştirmek eğlencelidir.
+Python ile ilk uygulamanızı geliştirdiğinizde ve sonucunu ekranda gördüğünüzde ne demek istediğimi anlayacaksınız. =)
+
+== Kurulum
+
+Python'ın farklı işletim sistemlerinde farklı kurulumları vardır:
+
+=== Windows'ta Kurulum
+
+- https://www.python.org/downloads/[Python indirmeler sayfası]ndan *Download Python 3.x.x* tuşuna tıklayın ve kurucu programın indirilmesini bekleyin.
+- Kurucu programı çalıştırın, adımları takip edin ve kurulumu tamamlayın.
+- Komut İstemi'nde şu komutu vererek kurulumun başarılı bir şekilde tamamlanıp tamamlanmadığını kontrol edin:
++
+[source,bash]
+----
+> py -3
+Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 17:54:52) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+----
++
+Verdiğimiz komut sonrası __Python etkileşimli kabuğu__nun açılması ve `>>>` işaretinden sonra bizden komut beklenmesi, kurulumumuzun başarılı olduğunu gösteriyor.
+
+=== Mac'te Kurulum
+
+- https://www.python.org/downloads/[Python indirmeler sayfası]ndan *Download Python 3.x.x* tuşuna tıklayın ve kurucu programın indirilmesini bekleyin.
+- Kurucu programı çalıştırın, adımları takip edin ve kurulumu tamamlayın.
+- Terminal'de şu komutu vererek kurulumun başarılı bir şekilde tamamlanıp tamamlanmadığını kontrol edin:
++
+[source,bash]
+----
+$ python3
+Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 17:54:52) [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+----
++
+Verdiğimiz komut sonrası __Python etkileşimli kabuğu__nun açılması ve `>>>` işaretinden sonra bizden komut beklenmesi, kurulumumuzun başarılı olduğunu gösteriyor.
+
+=== Linux'te Kurulum
+
+Eğer Linux kullanıyorsanız o zaman Python sizde büyük ihtimalle kuruludur.
+Öncelikle uçbirimde(konsol,terminal,shell) şu komutu vererek bunu sorgulayın:
+
+[source,bash]
+----
+$ python3
+Python 3.6.1 (default, Mar 21 2017, 17:54:52) [GCC 6.2.0 20161005] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+----
+
+Eğer sizde de bu şekilde _Python etkileşimli kabuğu_ açılıyor ve `>>>` işaretinden sonra komut bekleniyorsa bir sonraki bölüme gönül rahatlığıyla geçebilirsiniz.
+Değil de bir hata çıktısıysa, Python sizde kurulu değil demektir.
+Aşağıdaki adımları takip ederek kurun.
+
+- https://www.python.org/downloads/[Python indirmeler sayfası]ndan *Download Python 3.x.x* tuşuna tıklayın ve _kaynak kodu_ arşivinin indirilmesini bekleyin.
+- İndirilen arşivi bir dizine çıkartın.
+- Bir uçbirim açıp bu dizine gidin ve şu komutu çalıştırın:
++
+[source,bash]
+----
+$ ./configure && make && sudo make altinstall
+----
++
+- İstendiğinde kök(root) şifrenizi girin ve kurulumu tamamlayın.
+- Terminal'de şu komutu vererek kurulumun başarılı bir şekilde tamamlanıp tamamlanmadığını kontrol edin:
++
+[source,bash]
+----
+$ python3
+Python 3.6.1 (default, Mar 21 2017, 17:54:52) [GCC 6.2.0 20161005] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+----
++
+Verdiğimiz komut sonrası __Python etkileşimli kabuğu__nun açılması ve `>>>` işaretinden sonra bizden komut beklenmesi, kurulumumuzun başarılı olduğunu gösteriyor.
