@@ -1,18 +1,24 @@
 = YazBel Belgeleri
 İsmail Arılık <arilik.ismail@gmail.com>
-0.1, 11 Mayıs, 2017, YazBel Yazılım Belgelendirme Projesi Belgeleri
+0.1, 13 Mayıs, 2017, YazBel Yazılım Belgelendirme Projesi Belgeleri
 :version-label: Sürüm
 :last-update-label: Son güncelleme
 :icons: font
+:source-highlighter: pygments
 :toc: left
 :toc-title: İçindekiler
+
+// Font simgelerinin çalışması için eklenmiştir.
+++++
+<script src="https://use.fontawesome.com/c38eb8c034.js"></script>
+++++
 
 YazBel projesi belgelerine hoşgeldiniz!
 Burada çeşitli programlama dilleri, kütüphaneler ve teknolojiler hakkında belgeler bulabilirsiniz.
 
 NOTE: istihza.com Python 3 belgelerine link:python-istihza/[şu adresten] ulaşabilirsiniz.
 
-== Belgeler hakkında
+== Belgeler Hakkında
 
 Bu belgelerin kaynak kodu https://github.com/yazbel/belgeler[GitHub'ta tutulmaktadır].
 
@@ -37,3 +43,11 @@ Başlık kısmının kısa ve öz olmasına dikkat edin.
 
 https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
 Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
+
+== Android Belgeleri
+
+Android belgelerini link:android/[şurada] bulabilirsiniz.
+
+== Ruby Belgeleri
+
+Ruby, Ruby on Rails ve diğer Ruby teknolojilerine ait belgeleri link:ruby/[şurada] bulabilirsiniz.
