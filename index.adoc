@@ -48,6 +48,10 @@ Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
 
 Android belgelerini link:android/[şurada] bulabilirsiniz.
 
+== Python belgeleri
+
+Python, Django, PyQt, Pygame, Beautiful Soup ve diğer Python teknolojilerine ait belgeleri link:python/[şurada] bulabilirsiniz.
+
 == Ruby Belgeleri
 
 Ruby, Ruby on Rails ve diğer Ruby teknolojilerine ait belgeleri link:ruby/[şurada] bulabilirsiniz.
