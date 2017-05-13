@@ -1,0 +1,69 @@
+= Beautiful Soup Belgeleri
+İsmail Arılık <arilik.ismail@gmail.com>
+0.1, 13 Mayıs, 2017, YazBel Beautiful Soup Belgeleri
+:version-label: Sürüm
+:last-update-label: Son güncelleme
+:icons: font
+:source-highlighter: pygments
+:source-language: python
+:toc: left
+:toc-title: İçindekiler
+
+// Font simgelerinin çalışması için eklenmiştir.
+++++
+<script src="https://use.fontawesome.com/c38eb8c034.js"></script>
+++++
+
+Beautiful Soup belgelerine hoşgeldiniz!
+
+== Belgeler Hakkında
+
+Bu belgelerin kaynak kodu https://github.com/yazbel/belgeler[GitHub'ta tutulmaktadır].
+
+=== Nasıl yardım alabilirim?
+
+Her zaman https://forum.yazbel.com/[YazBel forumu]nun https://forum.yazbel.com/c/python/beautiful-soup[Beautiful Soup kategorisi]nde bir konu açarak aklınızdaki soruları sorabilirsiniz.
+Topluluk size yardım etmekten mutluluk duyacaktır.
+
+=== Nasıl yardım edebilirim?
+
+Birçok şekilde yardım edebilirsiniz:
+
+- Belgelerde değişiklik yaparak çekme isteği(pull request) gönderebilirsiniz.
+Yazım yanlışları ve küçük hatalar için GitHub arayüzünü kullanabilirsiniz ancak daha büyük ve karmaşık düzeltmeler için veri havuzunu bilgisayarınıza çekmeli, daha sonrasında düzeltmeleri yapıp çekme isteği göndermelisiniz.
+Her iki durumda da kısa ve öz bir işleme mesajı(commit message) yazdığınıza emin olmalısınız.
+
+- Eğer bir yanlış gördünüz ancak bir sebepten ötürü düzeltmeyi kendiniz yapmak istemediyseniz, bu hatayı bildirerek de yardım edebilirsiniz.
+Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(issues)] dizininde bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin.
+Başlık kısmının kısa ve öz olmasına dikkat edin.
+Ayrıca konuya, sağ taraftaki **Labels** bölümünden `beautiful-soup` etiketini eklediğinize de emin olun.
+
+=== Lisans
+
+https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
+Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
+
+== Beautiful Soup Hakkında
+
+https://www.crummy.com/software/BeautifulSoup/[Beautiful Soup], XML ve HTML belgelerini işlemek için kullanılabilecek bir Python kütüphanesidir.
+Beautiful Soup'u güçlü kılan üç özellik vardır:
+
+. Beautiful Soup bir ayrıştırma ağacında gezinim, arama ve değiştirme yapmak için gerekli olan basit yordamları ve Pythonca deyimleri içerir.
+Bu araçlar sayesinde bir belgeyi parçalarına ayırıp içinden istediklerinizi çıkartabilirsiniz.
+. Beautiful Soup otomatik olarak, açılan dosyaları Unicode'a, kapanan dosyaları ise UTF-8'e çevirir.
+Bu sebeple kodlama konusunda endişelenmenize gerek yoktur.
+Sadece, eğer belge bir kodlama belirtmemişse özgün kodlamayı belirtmeniz gerekir.
+. Beautiful Soup http://lxml.de/[lxml] ve https://github.com/html5lib/[html5lib] gibi gözde Python işleyicilerini kullanır, bu sebeple hız vb. sebeplerle farklı işleme taktiklerini kullanabilirsiniz.
+
+Beautiful Soup'a bir belge gönderdikten sonra ona "Tüm bağlantıları bul.", "``ustBilgiBaglantisi`` sınıfına sahip tüm bağlantıları bul.", "Bağlantısı "``foo.com``"la eşleşen tüm bağlantıları bul." ya da "Kalın yazıya sahip çizelge başlığının yazısını ver." diyebilirsiniz.
+Beautiful Soup, ayrıca, bozuk HTML ya da XML belgelerini de işleyebilmektedir.
+
+== Kurulum
+
+Şu an itibariyle en güncel Beautiful Soup sürümü Beautiful Soup 4'tür.
+Beautiful Soup 4'ü kurmanın herkes için çalışacak en hızlı kurulum şekli `pip` ile kurmaktır:
+
+[source,bash]
+----
+pip3 install beautifulsoup4
+----

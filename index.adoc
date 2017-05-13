@@ -52,6 +52,11 @@ Android belgelerini link:android/[şurada] bulabilirsiniz.
 
 Python, Django, PyQt, Pygame, Beautiful Soup ve diğer Python teknolojilerine ait belgeleri link:python/[şurada] bulabilirsiniz.
 
+=== Beautiful Soup Belgeleri
+
+Beautiful Soup Python'ın gözde HTML ve XML çözümleme kütüphanesidir.
+Belgeler için link:python/beautiful-soup/[tıklayın].
+
 == Ruby Belgeleri
 
 Ruby, Ruby on Rails ve diğer Ruby teknolojilerine ait belgeleri link:ruby/[şurada] bulabilirsiniz.
