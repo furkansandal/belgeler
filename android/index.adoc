@@ -38,6 +38,8 @@ Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(iss
 Başlık kısmının kısa ve öz olmasına dikkat edin.
 Ayrıca konuya, sağ taraftaki **Labels** bölümünden `android` etiketini eklediğinize de emin olun.
 
+- https://forum.yazbel.com/c/android[Forumun Android kategorisi]nde sorulan soruları cevaplayabilirsiniz.
+
 === Lisans
 
 https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.

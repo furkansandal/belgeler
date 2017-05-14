@@ -29,6 +29,9 @@ yardım edebilirsiniz. Bunun için veri havuzunun [konular(issues)](https://gith
 bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin. Başlık kısmının kısa ve öz olmasına dikkat
 edin. Ayrıca konuya, sağ taraftaki **Labels** bölümünden `beautiful-soup` etiketini eklediğinize de emin olun.
 
+- [Forumun Beautiful Soup kategorisi](https://forum.yazbel.com/c/python/beautiful-soup)nde sorulan soruları
+cevaplayabilirsiniz.
+
 ## Lisans
 
 [`LICENSE`](https://github.com/yazbel/belgeler/blob/master/LICENSE) dosyasında da belirtildiği üzere bu

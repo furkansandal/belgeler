@@ -39,6 +39,8 @@ Her iki durumda da kısa ve öz bir işleme mesajı(commit message) yazdığın�
 Bunun için veri havuzunun https://github.com/yazbel/belgeler/issues[konular(issues)] dizininde bir konu açın, başlık ve açıklama kısmına ilgili metinleri yazın ve gönderin.
 Başlık kısmının kısa ve öz olmasına dikkat edin.
 
+- https://forum.yazbel.com[Forum]da sorulan soruları cevaplayabilirsiniz.
+
 === Lisans
 
 https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
