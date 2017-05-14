@@ -49,6 +49,7 @@ Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
 
 Python programlama dili Hollandalı programcı Guido Van Rossum tarafından 1991 yılında tasarlanıp gerçeklenmeye başlanmış bir programlama dilidir.
 Python en başta kolay okunup yazılabilirliği ile dikkat çekmektedir.
+Ayrıca C ve C++ gibi dillerin aksine, derlenmeye gerek olmadan çalışabildiği için hızlı bir şekilde uygulama geliştirilebilmesine de olanak sağlamaktadır.
 Python zamanımızın gözde programlama paradigmalarından olan nesneye yönelik programlama paradigmasını desteklemektedir.
 Python programlama dili genel amaçlı bir programlama dilidir ve masaüstü programlamadan web sunucu programlamaya, sistem programlamadan oyun programlamaya kadar birçok alanda kullanılmaktadır.
 
@@ -101,42 +102,7 @@ Verdiğimiz komut sonrası __Python etkileşimli kabuğu__nun açılması ve `>>
 
 === Linux'te Kurulum
 
-Eğer Linux kullanıyorsanız o zaman Python sizde büyük ihtimalle kuruludur.
-Öncelikle uçbirimde(konsol,terminal,shell) şu komutu vererek bunu sorgulayın:
-
-[source,bash]
-----
-$ python3
-Python 3.6.1 (default, Mar 21 2017, 17:54:52) [GCC 6.2.0 20161005] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-----
-
-Eğer sizde de bu şekilde _Python etkileşimli kabuğu_ açılıyor ve `>>>` işaretinden sonra komut bekleniyorsa bir sonraki bölüme gönül rahatlığıyla geçebilirsiniz.
-Değil de bir hata çıktısıysa, Python sizde kurulu değil demektir.
-Aşağıdaki adımları takip ederek kurun.
-
-- https://www.python.org/downloads/[Python indirmeler sayfası]ndan *Download Python 3.x.x* tuşuna tıklayın ve _kaynak kodu_ arşivinin indirilmesini bekleyin.
-- İndirilen arşivi bir dizine çıkartın.
-- Bir uçbirim açıp bu dizine gidin ve şu komutu çalıştırın:
-+
-[source,bash]
-----
-$ ./configure && make && sudo make altinstall
-----
-+
-- İstendiğinde kök(root) şifrenizi girin ve kurulumu tamamlayın.
-- Terminal'de şu komutu vererek kurulumun başarılı bir şekilde tamamlanıp tamamlanmadığını kontrol edin:
-+
-[source,bash]
-----
-$ python3
-Python 3.6.1 (default, Mar 21 2017, 17:54:52) [GCC 6.2.0 20161005] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-----
-+
-Verdiğimiz komut sonrası __Python etkileşimli kabuğu__nun açılması ve `>>>` işaretinden sonra bizden komut beklenmesi, kurulumumuzun başarılı olduğunu gösteriyor.
+Eğer Linux kullanıyorsanız o zaman Python sizde zaten kuruludur, herhangi bir şey yapmanıza gerek yok.
 
 == Beautiful Soup Belgeleri
 
