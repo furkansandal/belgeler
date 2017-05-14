@@ -44,3 +44,11 @@ Ayrıca konuya, sağ taraftaki **Labels** bölümünden `ruby` etiketini ekledi�
 
 https://github.com/yazbel/belgeler/blob/master/LICENSE[`LICENSE`] dosyasında da belirtildiği üzere bu belgelerin lisansı *Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)* lisansıdır.
 Daha fazla bilgi için lütfen dosyanın içeriğine bakınız.
+
+== Ruby Hakkında
+
+https://www.ruby-lang.org/tr/[Ruby], https://tr.wikipedia.org/wiki/Yukihiro_Matsumoto[Yukihiro Matsumoto] tarafından 1993 yılında Japonya'da tasarlanmaya ve geliştirilmeye başlanmıştır.
+Verimlilik ve sadelik üzerine odaklanmış, açık kaynak kodlu dinamik bir dildir.
+Okumayı ve yazmayı kolaylaştıran, doğal bir sözdizimine sahiptir.
+Ayrıca günümüzün gözde programlama paradigmalarından olan nesneye yönelik programlama ve fonksiyonel programlama paradigmalarını güçlü bir şekilde desteklemektedir.
+Ruby özgür bir yazılımdır ve https://www.ruby-lang.org/en/about/license.txt[Ruby lisansı] ile lisanslanmıştır.
